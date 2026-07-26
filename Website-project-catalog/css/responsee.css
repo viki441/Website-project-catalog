@@ -56,6 +56,12 @@ img {
   max-width:none;
   width:100%;
 }
+
+.item
+{
+  height: 300px;
+  
+}
 .owl-nav div {font-family:"mfg";}
 .grid .owl-carousel {
   width:100% !important;

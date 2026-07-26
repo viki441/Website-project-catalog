@@ -1,0 +1,103 @@
+{
+    "rolls": [
+        {
+            "name": "57mm/14m",
+            "in stack": 20,
+            "in box": 480,
+            "descripton": "",            
+            "price": 0.19
+        },
+        {
+            "name": "57mm/17m",
+            "in stack": 20,
+            "in box": 320,
+            "descripton": "",
+            "price": 0.20
+        },
+        {
+            "name": "57mm/19m",
+            "in stack": 20,
+            "in box": 320,
+            "descripton": "",
+            "price": 0.24
+        },
+        {
+            "name": "57mm/26m",
+            "in stack": 12,
+            "in box": 216,
+            "descripton": "",
+            "price": 0.30
+        },
+        {
+            "name": "57mm/28m",
+            "in stack": 12,
+            "in box": 216,
+            "descripton": "",
+            "price": 0.34
+        },
+        {
+            "name": "57mm/34m",
+            "in stack": 12,
+            "in box": 192,
+            "descripton": "",
+            "price": 0.40
+        },
+        {
+            "name": "57mm/65m",
+            "in stack": 6,
+            "in box": 120,
+            "descripton": "",
+            "price": 0.74
+        },
+        {
+            "name": "57mm/80m",
+            "in stack": 6,
+            "in box": 84,
+            "descripton": "",
+            "price": 0.89
+        },
+        {
+            "name": "79mm/37m",
+            "in stack": 12,
+            "in box": 120,
+            "descripton": "",
+            "price": 0.57
+        },
+        {
+            "name": "79mm/67m",
+            "in stack": 12,
+            "in box": 72,
+            "descripton": "",
+            "price": 1.02
+        },
+        {
+            "name": "79mm/75m",
+            "in stack": 6,
+            "in box": 60,
+            "descripton": "",
+            "price": 1.12
+        },
+        {
+            "name": "79mm/80m",
+            "in stack": 6,
+            "in box": 60,
+            "descripton": "",
+            "price": 1.19
+        },
+        {
+            "name": "57mm/9.5m",
+            "in stack": 24,
+            "in box": 480,
+            "descripton": "",
+            "price": 0.14
+        },
+        {
+            "name": "57mm/12m",
+            "in stack": 20,
+            "in box": 480,
+            "descripton": "",
+            "price": 0.17
+        }
+    ],
+    "image-default": "rolls-default.jpg"
+}
