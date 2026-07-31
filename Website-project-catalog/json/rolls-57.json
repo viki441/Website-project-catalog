@@ -57,34 +57,6 @@
             "price": 0.89
         },
         {
-            "name": "79mm/37m",
-            "in stack": 12,
-            "in box": 120,
-            "descripton": "",
-            "price": 0.57
-        },
-        {
-            "name": "79mm/67m",
-            "in stack": 12,
-            "in box": 72,
-            "descripton": "",
-            "price": 1.02
-        },
-        {
-            "name": "79mm/75m",
-            "in stack": 6,
-            "in box": 60,
-            "descripton": "",
-            "price": 1.12
-        },
-        {
-            "name": "79mm/80m",
-            "in stack": 6,
-            "in box": 60,
-            "descripton": "",
-            "price": 1.19
-        },
-        {
             "name": "57mm/9.5m",
             "in stack": 24,
             "in box": 480,
