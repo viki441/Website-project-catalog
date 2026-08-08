@@ -103,11 +103,11 @@ img {
   width: auto;
 }
 
-.owl-item img,
+/* .owl-item img,
 .full-img {
-  /* max-width: none; */
-  /* width:100px; */
-}
+  max-width: none;
+  width:100px; 
+} */
 
 .item {
   height: 300px;
@@ -3180,7 +3180,7 @@ nav.breadcrumb-nav ul li:last-child:after {
     max-width: 100%;
     padding-right: 0.625rem;
     text-align: center;
-    vertical-align: middle;
+    /*vertical-align: middle;*/
   }
 
   .aside-nav-text:after {
