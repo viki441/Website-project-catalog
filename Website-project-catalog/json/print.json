@@ -1,0 +1,300 @@
+{
+    "print-paper": [
+        {
+            "type": "one-layered",
+            "heading": "Принтерна хартия еднопластова",
+            "images": "",
+            "description": "еднопластова 150мм/11” Koehler - брой листи в кашон: 3000",
+            "price": 21.35
+        },
+        {
+            "type": "two-layered",
+            "heading": "Принтерна хартия двупластова",
+            "images": "",
+            "description": "двупластова 150мм/11” Koehler - брой листи в кашон: 1400",
+            "price": 24.45
+        },
+        {
+            "type": "one-layered",
+            "heading": "Принтерна хартия еднопластова",
+            "images": "",
+            "description": "еднопластова 240мм/11” Koehler - брой листи в кашон: 1500",
+            "price": 18.50
+        },
+        {
+            "type": "two-layered",
+            "heading": "Принтерна хартия двупластова",
+            "images": "",
+            "description": "двупластова 240мм/11” Koehler - брой листи в кашон: 650",
+            "price": 17.45
+        },
+        {
+            "type": "three-layered",
+            "heading": "Принтерна хартия трипластова",
+            "images": "",
+            "description": "трипластова 240мм/11” Koehler - брой листи в кашон: 420",
+            "price": 17.45
+        },
+        {
+            "type": "one-layered",
+            "heading": "Принтерна хартия еднопластова",
+            "images": "",
+            "description": "57мм./ 34м. ◆ 12бр. стек ◆ кашон: 192 ролки",
+            "price": 0.40
+        },
+        {
+            "type": "four-layered",
+            "heading": "Принтерна хартия четирипластова",
+            "images": "",
+            "description": "четирипластова 240мм/11” Koehler - брой листи в кашон: 380",
+            "price": 25.82
+        },
+        {
+            "type": "one-layered",
+            "heading": "Принтерна хартия еднопластова",
+            "images": "",
+            "description": "еднопластова 380мм/11” Koehler - брой листи в кашон: 1500",
+            "price": 30.15
+        },
+        {
+            "type": "one-layered",
+            "heading": "Принтерна хартия еднопластова",
+            "images": "",
+            "description": "57мм./ 9.5м. ◆ 24бр. стек ◆ кашон: 480 ролки",
+            "price": 0.14
+        },
+        {
+            "type": "two-layered",
+            "heading": "Принтерна хартия двупластова",
+            "images": "",
+            "description": "двупластова 380мм/11” Koehler - брой листи в кашон: 650",
+            "price": 34.50
+        }
+    ],
+    "artist": [
+        {
+            "type": "artist-print",
+            "heading": "Принтерна хартия",
+            "images": "images/print/artist.jpg",
+            "description": "ARTIST PRINT - 120/11/’1/1700 листа",
+            "price": 0
+        },
+        {
+            "type": "artist-print",
+            "heading": "Принтерна хартия",
+            "images": "images/print/artist.jpg",
+            "description": "ARTIST PRINT - 150/11/’1/1700 листа",
+            "price": 0
+        },
+        {
+            "type": "artist-print",
+            "heading": "Принтерна хартия",
+            "images": "images/print/artist.jpg",
+            "description": "ARTIST PRINT - 240/11/’1/1700 листа",
+            "price": 0
+        },
+        {
+            "type": "artist-print",
+            "heading": "Принтерна хартия",
+            "images": "images/print/artist.jpg",
+            "description": "ARTIST PRINT - 380/11/’1/1700 листа",
+            "price": 0
+        },
+        {
+            "type": "artist-print",
+            "heading": "Принтерна хартия",
+            "images": "images/print/artist.jpg",
+            "description": "ARTIST PRINT - 120/12/’1/1700 листа",
+            "price": 0
+        },
+        {
+            "type": "artist-print",
+            "heading": "Принтерна хартия",
+            "images": "images/print/artist.jpg",
+            "description": "ARTIST PRINT - 150/12/’1/1700 листа",
+            "price": 0
+        },
+        {
+            "type": "artist-print",
+            "heading": "Принтерна хартия",
+            "images": "images/print/artist.jpg",
+            "description": "ARTIST PRINT - 240/12/’1/1700 листа",
+            "price": 0
+        },
+        {
+            "type": "artist-print",
+            "heading": "Принтерна хартия",
+            "images": "images/print/artist.jpg",
+            "description": "ARTIST PRINT - 380/12/’1/1700 листа",
+            "price": 0
+        },
+        {
+            "type": "artist-print",
+            "heading": "Принтерна хартия",
+            "images": "images/print/artist.jpg",
+            "description": "ARTIST PRINT - 120/11/’2/850 листа",
+            "price": 0
+        },
+        {
+            "type": "artist-print",
+            "heading": "Принтерна хартия",
+            "images": "images/print/artist.jpg",
+            "description": "ARTIST PRINT - 150/11/’2/850 листа",
+            "price": 0
+        },
+        {
+            "type": "artist-print",
+            "heading": "Принтерна хартия",
+            "images": "images/print/artist.jpg",
+            "description": "ARTIST PRINT - 240/11/’2/850 листа",
+            "price": 0
+        },
+        {
+            "type": "artist-print",
+            "heading": "Принтерна хартия",
+            "images": "images/print/artist.jpg",
+            "description": "ARTIST PRINT - 380/11/’2/850 листа",
+            "price": 0
+        },
+        {
+            "type": "artist-print",
+            "heading": "Принтерна хартия",
+            "images": "images/print/artist.jpg",
+            "description": "ARTIST PRINT - 120/12/’2/850 листа",
+            "price": 0
+        },
+        {
+            "type": "artist-print",
+            "heading": "Принтерна хартия",
+            "images": "images/print/artist.jpg",
+            "description": "ARTIST PRINT - 150/12/’2/850 листа",
+            "price": 0
+        },
+        {
+            "type": "artist-print",
+            "heading": "Принтерна хартия",
+            "images": "images/print/artist.jpg",
+            "description": "ARTIST PRINT - 240/12/’2/850 листа",
+            "price": 0
+        },
+        {
+            "type": "artist-print",
+            "heading": "Принтерна хартия",
+            "images": "images/print/artist.jpg",
+            "description": "ARTIST PRINT - 380/12/’2/850 листа",
+            "price": 0
+        },
+        {
+            "type": "artist-print",
+            "heading": "Принтерна хартия",
+            "images": "images/print/artist.jpg",
+            "description": "ARTIST PRINT - 120/11/’3/600 листа",
+            "price": 0
+        },
+        {
+            "type": "artist-print",
+            "heading": "Принтерна хартия",
+            "images": "images/print/artist.jpg",
+            "description": "ARTIST PRINT - 150/11/’3/600 листа",
+            "price": 0
+        },
+        {
+            "type": "artist-print",
+            "heading": "Принтерна хартия",
+            "images": "images/print/artist.jpg",
+            "description": "ARTIST PRINT - 240/11/’3/600 листа",
+            "price": 0
+        },
+        {
+            "type": "artist-print",
+            "heading": "Принтерна хартия",
+            "images": "images/print/artist.jpg",
+            "description": "ARTIST PRINT - 380/11/’3/600 листа",
+            "price": 0
+        },
+        {
+            "type": "artist-print",
+            "heading": "Принтерна хартия",
+            "images": "images/print/artist.jpg",
+            "description": "ARTIST PRINT - 120/12/’3/600 листа",
+            "price": 0
+        },
+        {
+            "type": "artist-print",
+            "heading": "Принтерна хартия",
+            "images": "images/print/artist.jpg",
+            "description": "ARTIST PRINT - 150/12/’3/600 листа",
+            "price": 0
+        },
+        {
+            "type": "artist-print",
+            "heading": "Принтерна хартия",
+            "images": "images/print/artist.jpg",
+            "description": "ARTIST PRINT - 240/12/’3/600 листа",
+            "price": 0
+        },
+        {
+            "type": "artist-print",
+            "heading": "Принтерна хартия",
+            "images": "images/print/artist.jpg",
+            "description": "ARTIST PRINT - 380/12/’3/600 листа",
+            "price": 0
+        },
+        {
+            "type": "artist-print",
+            "heading": "Принтерна хартия",
+            "images": "images/print/artist.jpg",
+            "description": "ARTIST PRINT - 120/11/’4/425 листа",
+            "price": 0
+        },
+        {
+            "type": "artist-print",
+            "heading": "Принтерна хартия",
+            "images": "images/print/artist.jpg",
+            "description": "ARTIST PRINT - 150/11/’4/425 листа",
+            "price": 0
+        },
+        {
+            "type": "artist-print",
+            "heading": "Принтерна хартия",
+            "images": "images/print/artist.jpg",
+            "description": "ARTIST PRINT - 240/11/’4/425 листа",
+            "price": 0
+        },
+        {
+            "type": "artist-print",
+            "heading": "Принтерна хартия",
+            "images": "images/print/artist.jpg",
+            "description": "ARTIST PRINT - 380/11/’4/425 листа",
+            "price": 0
+        },
+        {
+            "type": "artist-print",
+            "heading": "Принтерна хартия",
+            "images": "images/print/artist.jpg",
+            "description": "ARTIST PRINT - 120/12/’4/425 листа",
+            "price": 0
+        },
+        {
+            "type": "artist-print",
+            "heading": "Принтерна хартия",
+            "images": "images/print/artist.jpg",
+            "description": "ARTIST PRINT - 150/12/’4/425 листа",
+            "price": 0
+        },
+        {
+            "type": "artist-print",
+            "heading": "Принтерна хартия",
+            "images": "images/print/artist.jpg",
+            "description": "ARTIST PRINT - 240/12/’4/425 листа",
+            "price": 0
+        },
+        {
+            "type": "artist-print",
+            "heading": "Принтерна хартия",
+            "images": "images/print/artist.jpg",
+            "description": "ARTIST PRINT - 380/12/’4/425 листа",
+            "price": 0
+        }
+    ]
+}

@@ -18,7 +18,7 @@
    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
 </head>
 
-<body class="size-1520">
+<body class="size-1520" >
    <!-- HEADER -->
    <header>
       <!--<div class="line">
@@ -58,7 +58,7 @@
                </ul>
                <ul class="right">
                   <li><a>Home</a></li>
-                  <li>
+                  <!-- <li>
                      <a>Catalogue</a>
                      <ul>
                         <li><a>First Category</a></li>
@@ -68,13 +68,9 @@
                         <li><a>Fifth Category</a></li>
                         <li><a>Sixth Category</a></li>
                      </ul>
-                  </li>
+                  </li> -->
                   <li>
-                     <a>Company</a>
-                     <ul>
-                        <li><a>About</a></li>
-                        <li><a>Location</a></li>
-                     </ul>
+                     <a>Company</a>      
                   </li>
                   <li><a>Contact</a></li>
                </ul>
@@ -98,40 +94,36 @@
                   <!--TYPES-->
                   <ul>
                      <li>
-                        <a href="#" id="termo-rolls">Термо ролки</a>
+                        <a id="termo-rolls">Термо ролки</a>
                         <ul>
-                           <li><a>Всички</a></li>
-                           <li><a>Модел 57мм.</a></li>
-                           <li><a>Модел 79мм.</a></li>
+                           <li><a href="?query=rolls" data-query="all-rolls">Всички</a></li>
+                           <li><a href="?query=rolls-57" data-query="rolls-57">Модел 57мм.</a></li>
+                           <li><a href="?query=rolls-79" data-query="rolls-79">Модел 79мм.</a></li>
                         </ul>
                      </li>
 
                      <li>
                         <a href="#" id="print-paper">Принтерна хартия</a>
                         <ul>
-                           <li><a>Еднопластова</a></li>
-                           <li><a>Двупластова</a></li>
-                           <li><a>Трипластова</a></li>
-                           <li><a>Четирипластова</a></li>
-                           <li><a>Принтерен картон</a></li>
-                           <li><a>Принтерна хартия ARTIST PRINT</a></li>
+                           <li><a>Всички</a></li>
+                           <li><a>Koehler хартия</a></li>
+                           <li><a>ARTIST PRINT</a></li>
                         </ul>
                      </li>
 
                      <li>
                         <a href="#" id="copy-paper">Копирна хартия</a>
                         <ul>
-                           <li><a>Niveus FIT+</a></li>
-                           <li><a>Blue Copying Paper</a></li>
-                           <li><a>PREMIER COPIER - A клас</a></li>
-                           <li><a>Red Copying Paper Mondi</a></li>
-                           <li><a>DNS PREMIUM</a></li>
+                           <li><a>Всички</a></li>
+                           <li><a>Копирна хартия</a></li>
+                           <li><a>Копирен картон</a></li>
                         </ul>
                      </li>
 
                      <li>
                         <a href="#" id="toners">Тонер касети</a>
                         <ul>
+                           <li><a>Всички</a></li>
                            <li><a>TN модел</a></li>
                         </ul>
                      </li>
@@ -173,217 +165,179 @@
                <h1 class="margin-bottom">Продукти</h1>
                <div class="margin2x" id="product-container">
 
+
+
+
                   <!--PRODUCT-->
-                  <div class="s-12 m-12 l-4 xl-3 xxl-3">
-                     <a href="/">
-                        <img class="full-img" src="img/gallery-1.svg">
+                  <!-- <div class="s-12 m-6 l-4 xl-4 xxl-3">
+                     <img class="full-img" src="images/rolls/mockup.jpg">
+                     <h5 class="query-price">EUR 0.19</h5>
+                     <a>
+                        <h4 class="margin-bottom"><strong>Термо касови ролки</strong></h4>
                      </a>
-                     <h5>EUR 20.59</h5>
+                     <p class="margin-bottom">
+                           57мм./ 14м. ◆ 20бр. стек ◆ кашон: 480 ролки 
+                     </p>
+                     <div class="customform s-12 margin-bottom2x">
+                        <button class="button rounded-btn submit-btn s-12">See item</button>
+                     </div>
+                  </div>
+
+                  <div class="s-12 m-6 l-4 xl-4 xxl-3">
+                     <a href="/"><img class="full-img" src="images/rolls/mockup.jpg"></a>
+                     <h5>EUR 0.20€</h5>
                      <a href="/">
-                        <h4 class="margin-bottom"><strong>Product name lorem ipsum dolor</strong></h4>
+                        <h4 class="margin-bottom"><strong>Термо касови ролки</strong></h4>
                      </a>
-                     <p class="margin-bottom">Lorem ipsum dolor sit amet, qui iisque scripserit in, ne pri suas labitur,
-                        cu duo brute veniam.</p>
+                     <p class="margin-bottom">57мм./ 17м. ◆ 20бр. стек ◆ кашон: 320 ролки</p>
                      <form class="customform s-12 margin-bottom2x" action="">
                         <div><button class="button rounded-btn submit-btn s-12" type="submit">Add to Cart</button></div>
                      </form>
                   </div>
 
-
-                  <div class="s-12 m-12 l-4 xl-3 xxl-3">
-                     <a href="/"><img class="full-img" src="img/gallery-2.svg"></a>
-                     <h5>EUR 20.59</h5>
+                  <div class="s-12 m-6 l-4 xl-4 xxl-3">
+                     <a href="/"><img class="full-img" src="images/rolls/mockup.jpg"></a>
+                     <h5>EUR 0.24</h5>
                      <a href="/">
-                        <h4 class="margin-bottom"><strong>Product name lorem ipsum dolor</strong></h4>
+                        <h4 class="margin-bottom"><strong>Термо касови ролки</strong></h4>
                      </a>
-                     <p class="margin-bottom">Lorem ipsum dolor sit amet, qui iisque scripserit in, ne pri suas labitur,
-                        cu duo brute veniam.</p>
+                     <p class="margin-bottom">57мм./ 19м. ◆ 20бр. стек ◆ кашон: 320 ролки</p>
                      <form class="customform s-12 margin-bottom2x" action="">
                         <div><button class="button rounded-btn submit-btn s-12" type="submit">Add to Cart</button></div>
                      </form>
                   </div>
 
-                  <div class="s-12 m-12 l-4 xl-3 xxl-3">
-                     <a href="/"><img class="full-img" src="img/gallery-3.svg"></a>
-                     <h5>EUR 20.59</h5>
+                  <div class="s-12 m-6 l-4 xl-4 xxl-3">
+                     <a href="/"><img class="full-img" src="images/rolls/mockup.jpg"></a>
+                     <h5>EUR 0.30</h5>
                      <a href="/">
-                        <h4 class="margin-bottom"><strong>Product name lorem ipsum dolor</strong></h4>
+                        <h4 class="margin-bottom"><strong>Термо касови ролки</strong></h4>
                      </a>
-                     <p class="margin-bottom">Lorem ipsum dolor sit amet, qui iisque scripserit in, ne pri suas labitur,
-                        cu duo brute veniam.</p>
+                     <p class="margin-bottom">57мм./ 26м. ◆ 12бр. стек ◆ кашон: 216 ролки</p>
                      <form class="customform s-12 margin-bottom2x" action="">
                         <div><button class="button rounded-btn submit-btn s-12" type="submit">Add to Cart</button></div>
                      </form>
                   </div>
 
-                  <div class="s-12 m-12 l-4 xl-3 xxl-3">
-                     <a href="/"><img class="full-img" src="img/gallery-4.svg"></a>
-                     <h5>EUR 20.59</h5>
+                  <div class="s-12 m-6 l-4 xl-4 xxl-3">
+                     <a href="/"><img class="full-img" src="images/rolls/mockup.jpg"></a>
+                     <h5>EUR 0.34</h5>
                      <a href="/">
-                        <h4 class="margin-bottom"><strong>Product name lorem ipsum dolor</strong></h4>
+                        <h4 class="margin-bottom"><strong>Термо касови ролки</strong></h4>
                      </a>
-                     <p class="margin-bottom">Lorem ipsum dolor sit amet, qui iisque scripserit in, ne pri suas labitur,
-                        cu duo brute veniam.</p>
+                     <p class="margin-bottom">57мм./ 28м. ◆ 12бр. стек ◆ кашон: 216 ролки</p>
                      <form class="customform s-12 margin-bottom2x" action="">
                         <div><button class="button rounded-btn submit-btn s-12" type="submit">Add to Cart</button></div>
                      </form>
                   </div>
 
-                  <div class="s-12 m-12 l-4 xl-3 xxl-3">
-                     <a href="/"><img class="full-img" src="img/gallery-4.svg"></a>
-                     <h5>EUR 20.59</h5>
+                  <div class="s-12 m-6 l-4 xl-4 xxl-3">
+                     <a href="/"><img class="full-img" src="images/rolls/mockup.jpg"></a>
+                     <h5>EUR 0.40</h5>
                      <a href="/">
-                        <h4 class="margin-bottom"><strong>Product name lorem ipsum dolor</strong></h4>
+                        <h4 class="margin-bottom"><strong>Термо касови ролки</strong></h4>
                      </a>
-                     <p class="margin-bottom">Lorem ipsum dolor sit amet, qui iisque scripserit in, ne pri suas labitur,
-                        cu duo brute veniam.</p>
+                     <p class="margin-bottom">57мм./ 34м. ◆ 12бр. стек ◆ кашон: 192 ролки</p>
                      <form class="customform s-12 margin-bottom2x" action="">
                         <div><button class="button rounded-btn submit-btn s-12" type="submit">Add to Cart</button></div>
                      </form>
                   </div>
 
-                  <div class="s-12 m-12 l-4 xl-3 xxl-3">
-                     <a href="/"><img class="full-img" src="img/gallery-3.svg"></a>
-                     <h5>EUR 20.59</h5>
+                  <div class="s-12 m-6 l-4 xl-4 xxl-3">
+                     <a href="/"><img class="full-img" src="images/rolls/mockup.jpg"></a>
+                     <h5>EUR 0.74</h5>
                      <a href="/">
-                        <h4 class="margin-bottom"><strong>Product name lorem ipsum dolor</strong></h4>
+                        <h4 class="margin-bottom"><strong>Термо касови ролки</strong></h4>
                      </a>
-                     <p class="margin-bottom">Lorem ipsum dolor sit amet, qui iisque scripserit in, ne pri suas labitur,
-                        cu duo brute veniam.</p>
+                     <p class="margin-bottom">57мм./ 65м. ◆ 6бр. стек ◆ кашон: 120 ролки</p>
                      <form class="customform s-12 margin-bottom2x" action="">
                         <div><button class="button rounded-btn submit-btn s-12" type="submit">Add to Cart</button></div>
                      </form>
                   </div>
 
-                  <div class="s-12 m-12 l-4 xl-3 xxl-3">
-                     <a href="/"><img class="full-img" src="img/gallery-2.svg"></a>
-                     <h5>EUR 20.59</h5>
+                  <div class="s-12 m-6 l-4 xl-4 xxl-3">
+                     <a href="/"><img class="full-img" src="images/rolls/mockup.jpg"></a>
+                     <h5>EUR 0.89</h5>
                      <a href="/">
-                        <h4 class="margin-bottom"><strong>Product name lorem ipsum dolor</strong></h4>
+                        <h4 class="margin-bottom"><strong>Термо касови ролки</strong></h4>
                      </a>
-                     <p class="margin-bottom">Lorem ipsum dolor sit amet, qui iisque scripserit in, ne pri suas labitur,
-                        cu duo brute veniam.</p>
+                     <p class="margin-bottom">57мм./ 80м. ◆ 6бр. стек ◆ кашон: 84 ролки</p>
                      <form class="customform s-12 margin-bottom2x" action="">
                         <div><button class="button rounded-btn submit-btn s-12" type="submit">Add to Cart</button></div>
                      </form>
                   </div>
 
-                  <div class="s-12 m-12 l-4 xl-3 xxl-3">
-                     <a href="/"><img class="full-img" src="img/gallery-1.svg"></a>
-                     <h5>EUR 20.59</h5>
+                  <div class="s-12 m-6 l-4 xl-4 xxl-3">
+                     <a href="/"><img class="full-img" src="images/rolls/mockup.jpg"></a>
+                     <h5>EUR 0.57</h5>
                      <a href="/">
-                        <h4 class="margin-bottom"><strong>Product name lorem ipsum dolor</strong></h4>
+                        <h4 class="margin-bottom"><strong>Термо касови ролки</strong></h4>
                      </a>
-                     <p class="margin-bottom">Lorem ipsum dolor sit amet, qui iisque scripserit in, ne pri suas labitur,
-                        cu duo brute veniam.</p>
+                     <p class="margin-bottom">79мм./ 37м. ◆ 12бр. стек ◆ кашон: 120 ролки</p>
                      <form class="customform s-12 margin-bottom2x" action="">
                         <div><button class="button rounded-btn submit-btn s-12" type="submit">Add to Cart</button></div>
                      </form>
                   </div>
 
-                  <div class="s-12 m-12 l-4 xl-3 xxl-3">
-                     <a href="/"><img class="full-img" src="img/gallery-1.svg"></a>
-                     <h5>EUR 20.59</h5>
+                  <div class="s-12 m-6 l-4 xl-4 xxl-3">
+                     <a href="/"><img class="full-img" src="images/rolls/mockup.jpg"></a>
+                     <h5>EUR 1.02</h5>
                      <a href="/">
-                        <h4 class="margin-bottom"><strong>Product name lorem ipsum dolor</strong></h4>
+                        <h4 class="margin-bottom"><strong>Термо касови ролки</strong></h4>
                      </a>
-                     <p class="margin-bottom">Lorem ipsum dolor sit amet, qui iisque scripserit in, ne pri suas labitur,
-                        cu duo brute veniam.</p>
+                     <p class="margin-bottom">79мм./ 67м. ◆ 12бр. стек ◆ кашон: 72 ролки</p>
                      <form class="customform s-12 margin-bottom2x" action="">
                         <div><button class="button rounded-btn submit-btn s-12" type="submit">Add to Cart</button></div>
                      </form>
                   </div>
 
-                  <div class="s-12 m-12 l-4 xl-3 xxl-3">
-                     <a href="/"><img class="full-img" src="img/gallery-2.svg"></a>
-                     <h5>EUR 20.59</h5>
+                  <div class="s-12 m-6 l-4 xl-4 xxl-3">
+                     <a href="/"><img class="full-img" src="images/rolls/mockup.jpg"></a>
+                     <h5>EUR 1.12</h5>
                      <a href="/">
-                        <h4 class="margin-bottom"><strong>Product name lorem ipsum dolor</strong></h4>
+                        <h4 class="margin-bottom"><strong>Термо касови ролки</strong></h4>
                      </a>
-                     <p class="margin-bottom">Lorem ipsum dolor sit amet, qui iisque scripserit in, ne pri suas labitur,
-                        cu duo brute veniam.</p>
+                     <p class="margin-bottom">79мм./ 75м. ◆ 6бр. стек ◆ кашон: 60 ролки</p>
                      <form class="customform s-12 margin-bottom2x" action="">
                         <div><button class="button rounded-btn submit-btn s-12" type="submit">Add to Cart</button></div>
                      </form>
                   </div>
 
-                  <div class="s-12 m-12 l-4 xl-3 xxl-3">
-                     <a href="/"><img class="full-img" src="img/gallery-3.svg"></a>
-                     <h5>EUR 20.59</h5>
+                  <div class="s-12 m-6 l-4 xl-4 xxl-3">
+                     <a href="/"><img class="full-img" src="images/rolls/mockup.jpg"></a>
+                     <h5>EUR 1.19</h5>
                      <a href="/">
-                        <h4 class="margin-bottom"><strong>Product name lorem ipsum dolor</strong></h4>
+                        <h4 class="margin-bottom"><strong>Термо касови ролки</strong></h4>
                      </a>
-                     <p class="margin-bottom">Lorem ipsum dolor sit amet, qui iisque scripserit in, ne pri suas labitur,
-                        cu duo brute veniam.</p>
+                     <p class="margin-bottom">79мм./ 80м. ◆ 6бр. стек ◆ кашон: 60 ролки</p>
                      <form class="customform s-12 margin-bottom2x" action="">
                         <div><button class="button rounded-btn submit-btn s-12" type="submit">Add to Cart</button></div>
                      </form>
                   </div>
 
-                  <div class="s-12 m-12 l-4 xl-3 xxl-3">
-                     <a href="/"><img class="full-img" src="img/gallery-4.svg"></a>
-                     <h5>EUR 20.59</h5>
+                  <div class="s-12 m-6 l-4 xl-4 xxl-3">
+                     <a href="/"><img class="full-img" src="images/rolls/mockup.jpg"></a>
+                     <h5>EUR 0.14</h5>
                      <a href="/">
-                        <h4 class="margin-bottom"><strong>Product name lorem ipsum dolor</strong></h4>
+                        <h4 class="margin-bottom"><strong>Термо касови ролки</strong></h4>
                      </a>
-                     <p class="margin-bottom">Lorem ipsum dolor sit amet, qui iisque scripserit in, ne pri suas labitur,
-                        cu duo brute veniam.</p>
+                     <p class="margin-bottom">57мм./ 9.5м. ◆ 24бр. стек ◆ кашон: 480 ролки</p>
                      <form class="customform s-12 margin-bottom2x" action="">
                         <div><button class="button rounded-btn submit-btn s-12" type="submit">Add to Cart</button></div>
                      </form>
                   </div>
 
-                  <div class="s-12 m-12 l-4 xl-3 xxl-3">
-                     <a href="/"><img class="full-img" src="img/gallery-4.svg"></a>
-                     <h5>EUR 20.59</h5>
+                  <div class="s-12 m-6 l-4 xl-4 xxl-3">
+                     <a href="/"><img class="full-img" src="images/rolls/mockup.jpg"></a>
+                     <h5>EUR 0.17</h5>
                      <a href="/">
-                        <h4 class="margin-bottom"><strong>Product name lorem ipsum dolor</strong></h4>
+                        <h4 class="margin-bottom"><strong>Термо касови ролки</strong></h4>
                      </a>
-                     <p class="margin-bottom">Lorem ipsum dolor sit amet, qui iisque scripserit in, ne pri suas labitur,
-                        cu duo brute veniam.</p>
+                     <p class="margin-bottom">57мм./ 12м. ◆ 20бр. стек ◆ кашон: 480 ролки</p>
                      <form class="customform s-12 margin-bottom2x" action="">
                         <div><button class="button rounded-btn submit-btn s-12" type="submit">Add to Cart</button></div>
                      </form>
-                  </div>
-
-                  <div class="s-12 m-12 l-4 xl-3 xxl-3">
-                     <a href="/"><img class="full-img" src="img/gallery-3.svg"></a>
-                     <h5>EUR 20.59</h5>
-                     <a href="/">
-                        <h4 class="margin-bottom"><strong>Product name lorem ipsum dolor</strong></h4>
-                     </a>
-                     <p class="margin-bottom">Lorem ipsum dolor sit amet, qui iisque scripserit in, ne pri suas labitur,
-                        cu duo brute veniam.</p>
-                     <form class="customform s-12 margin-bottom2x" action="">
-                        <div><button class="button rounded-btn submit-btn s-12" type="submit">Add to Cart</button></div>
-                     </form>
-                  </div>
-
-                  <div class="s-12 m-12 l-4 xl-3 xxl-3">
-                     <a href="/"><img class="full-img" src="img/gallery-2.svg"></a>
-                     <h5>EUR 20.59</h5>
-                     <a href="/">
-                        <h4 class="margin-bottom"><strong>Product name lorem ipsum dolor</strong></h4>
-                     </a>
-                     <p class="margin-bottom">Lorem ipsum dolor sit amet, qui iisque scripserit in, ne pri suas labitur,
-                        cu duo brute veniam.</p>
-                     <form class="customform s-12 margin-bottom2x" action="">
-                        <div><button class="button rounded-btn submit-btn s-12" type="submit">Add to Cart</button></div>
-                     </form>
-                  </div>
-
-                  <div class="s-12 m-12 l-4 xl-3 xxl-3">
-                     <a href="/"><img class="full-img" src="img/gallery-1.svg"></a>
-                     <h5>EUR 20.59</h5>
-                     <a href="/">
-                        <h4 class="margin-bottom"><strong>Product name lorem ipsum dolor</strong></h4>
-                     </a>
-                     <p class="margin-bottom">Lorem ipsum dolor sit amet, qui iisque scripserit in, ne pri suas labitur,
-                        cu duo brute veniam.</p>
-                     <form class="customform s-12 margin-bottom2x" action="">
-                        <div><button class="button rounded-btn submit-btn s-12" type="submit">Add to Cart</button></div>
-                     </form>
-                  </div>
+                  </div> -->
 
 
                </div>
@@ -404,6 +358,8 @@
       </div>
    </footer>
    <script type="text/javascript" src="js/responsee.js"></script>
+   <script type="text/javascript" src="queries/home.js"></script>
+   <script type="text/javascript" src="js/card-maker.js"></script>
    <script type="text/javascript" src="owl-carousel/owl.carousel.js"></script>
    <script type="text/javascript">
       jQuery(document).ready(function ($) {
