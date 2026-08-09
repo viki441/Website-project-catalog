@@ -50,7 +50,7 @@ function makeCard(containerMain, data)
     const seeContainer = document.createElement("div");
     seeContainer.classList.add("customform", "s-12", "margin-bottom2x");
     const seeBtn = document.createElement("button");
-    seeBtn.innerHTML = 'see';
+    seeBtn.innerHTML = 'Виж';
     seeBtn.classList.add("button", "rounded-btn", "submit-btn", "s-12");
     seeContainer.appendChild(seeBtn);
     container.appendChild(seeContainer);

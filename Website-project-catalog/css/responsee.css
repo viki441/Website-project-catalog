@@ -2760,7 +2760,7 @@ nav.breadcrumb-nav ul li:last-child:after {
   }
 
   .top-nav {
-    position: fixed;
+    position: sticky;
     top: 0;
     z-index: 10;
     left: -100%;
