@@ -2686,7 +2686,8 @@ nav.breadcrumb-nav ul li:last-child:after {
   }
 
   nav {
-    display: block;
+    display: flex;
+    align-items: center;
     cursor: pointer;
     line-height: 3;
   }
