@@ -4,6 +4,13 @@
  * Copyright 2020, Vision Design - graphic zoo
  * Free to use under the MIT license.
 */
+
+/* 
+
+  .top-nav
+  {
+    display: none;
+  } */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -286,10 +293,15 @@ form {
 }
 
 nav {
-  display: block;
+  display: flex;
   width: 100%;
   background: #152732;
+  
+}
 
+.top-nav {
+  display: flex;
+  align-items: center;
 }
 
 .line::after,
@@ -357,6 +369,7 @@ nav::after,
 }
 
 .top-nav li {
+
   float: left;
   list-style: none outside none;
   cursor: pointer;
@@ -369,6 +382,8 @@ nav::after,
   font-size: 1rem;
   padding: 1.25rem;
 }
+
+
 
 .top-nav li ul li a {
   background: none repeat scroll 0 0 #152732;
@@ -2025,10 +2040,12 @@ nav.breadcrumb-nav ul li:last-child:after {
 
 .right {
   float: right;
+  list-style: none;
 }
 
 .left {
   float: left;
+  list-style: none;
 }
 
 @media screen and (max-width:1366px) {
@@ -2665,7 +2682,18 @@ nav.breadcrumb-nav ul li:last-child:after {
   }
 }
 
+.mobile-menu {
+  display: none;
+}
+
 @media screen and (max-width:1050px) {
+
+  /* .left, .right {
+    display: none;
+  } */
+
+
+
 
   .size-960,
   .size-1140,
@@ -2686,10 +2714,25 @@ nav.breadcrumb-nav ul li:last-child:after {
   }
 
   nav {
-    display: flex;
-    align-items: center;
+    display: block;
     cursor: pointer;
-    line-height: 3;
+    line-height: 2;
+  }
+
+  .top-nav {
+    display: none;
+  }
+
+  .mobile-menu {
+    display: block;
+    align-items: center;
+  }
+
+  .mobile-menu>span {
+    color: white;
+    font-size: 50px;
+    float: right;
+    margin-right: 20px;
   }
 
   .top-nav li a {
@@ -2708,6 +2751,8 @@ nav.breadcrumb-nav ul li:last-child:after {
   .aside-nav.minimize-on-small>ul.show-menu {
     height: auto;
   }
+
+
 
   .top-nav ul ul {
     left: 0;

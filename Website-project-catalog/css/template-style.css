@@ -21,6 +21,8 @@ footer {
   background:#fff;
   padding:3.5rem 0;
 }
+
+
 @media screen and (max-width: 768px) {
   .right {
     float:none;
@@ -30,9 +32,7 @@ footer {
   }
   img.logo {
     max-width: 170px;
-    margin: 0 auto 20px auto;
-    width: auto;
-    max-height: 40px;
+    /* margin: 0 auto 20px auto; */
   }
   .cart {
     text-align: center;

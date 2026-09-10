@@ -1,3 +1,9 @@
+
+let data = [];
+let containerMain;
+const pageLimit = 10;
+
+
 function getQuery() {
     const query = new URLSearchParams(window.location.search).get("query") || "rolls";
 
@@ -18,30 +24,33 @@ async function loadData(query) {
 
     //console.log("response:", response);
 
-    const data = await response.json();
+    data = await response.json();
 
     //console.log("data:", data);
 
-    const containerMain = document.getElementById('product-container');
+    containerMain = document.getElementById('product-container');
 
     //console.log("container:", containerMain);
 
     //containerMain.innerHTML = '';
 
-    const products = data[category];
+    renderPage(1)
+    // const pro;ducts = data[category];
 
-    //console.log("products:", products);
+    // //console.log("products:", products);
 
-    const filteredProducts =
-        query === category
-            ? products
-            : products.filter(product => product.type === query);
+    // const filteredProducts =
+    //     query === category
+    //         ? products
+    //         : products.filter(product => product.type === query);
 
-    //console.log("filtered:", filteredProducts);
+    // //console.log("filtered:", filteredProducts);
 
-    filteredProducts.forEach(product => {
-        makeCard(containerMain, product);
-    });
+
+
+    // filteredProducts.forEach(product => {
+    //     makeCard(containerMain, product);
+    // });
 }
 
 

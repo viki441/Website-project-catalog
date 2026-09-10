@@ -53,11 +53,11 @@ jQuery(document).ready(function($) {
     $("body").toggleClass("active-slide-nav");
   });
   //Responsee eside nav
-  $('.aside-nav > ul > li ul').each(function(index, element) {
-    var count = $(element).find('li').length;
-    var content = '<span class="count-number"> ' + count + '</span>';
-    $(element).closest('li').children('a').append(content);
-  });
+  // $('.aside-nav > ul > li ul').each(function(index, element) {
+  //   var count = $(element).find('li').length;
+  //   var content = '<span class="count-number"> ' + count + '</span>';
+  //   $(element).closest('li').children('a').append(content);
+  // });
   $('.aside-nav > ul > li:has(ul)').addClass('aside-submenu');
   $('.aside-nav > ul ul > li:has(ul)').addClass('aside-sub-submenu'); 
     $('.aside-nav > ul > li.aside-submenu > a').attr('aria-haspopup', 'true').click(function() {
@@ -78,12 +78,18 @@ jQuery(document).ready(function($) {
   });  
   //Responsee nav
   // Add nav-text before top-nav
-  $('.top-nav').before('<p class="nav-text"><span></span></p>');   
-  $('.top-nav > ul > li ul').each(function(index, element) {
-    var count = $(element).find('li').length;
-    var content = '<span class="count-number"> ' + count + '</span>';
-    $(element).closest('li').children('a').append(content);
-  });
+  
+  
+  
+  //$('.top-nav').before('<div class="nav-text"><span></span></div>');   
+  
+  
+  
+  // $('.top-nav > ul > li ul').each(function(index, element) {
+  //   var count = $(element).find('li').length;
+  //   var content = '<span class="count-number"> ' + count + '</span>';
+  //   $(element).closest('li').children('a').append(content);
+  // });
   $('.top-nav > ul li:has(ul)').addClass('submenu');
   $('.top-nav > ul ul li:has(ul)').addClass('sub-submenu').removeClass('submenu');
   $('.top-nav > ul li.submenu > a').attr('aria-haspopup', 'true').click(function() { 
@@ -99,6 +105,8 @@ jQuery(document).ready(function($) {
   //Mobile navigation
   $('.nav-text').click(function() { 
     $("body").toggleClass('show-menu');
+
+    //$('.nav-text').show;
   });  
   //Custom forms
   $(function() {
