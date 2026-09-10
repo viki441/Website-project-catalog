@@ -1,4 +1,3 @@
-
 let data = [];
 let containerMain;
 const pageLimit = 10;
@@ -36,31 +35,32 @@ async function loadData(query) {
 
     
     
-    ///////renderPage(1);
+    renderPage(1);
     
     
     
     
-    // const pro;ducts = data[category];
+    const products = data[category];
 
     // //console.log("products:", products);
 
-    // const filteredProducts =
-    //     query === category
-    //         ? products
-    //         : products.filter(product => product.type === query);
+    const filteredProducts =
+        query === category
+            ? products
+            : products.filter(product => product.type === query);
 
     // //console.log("filtered:", filteredProducts);
 
 
 
-    // filteredProducts.forEach(product => {
-    //     makeCard(containerMain, product);
-    // });
+    filteredProducts.forEach(product => {
+        makeCard(containerMain, product);
+    });
 }
 
 
 // Initial load
 document.addEventListener("DOMContentLoaded", () => {
     loadData(getQuery());
+    console.log("testing 1");
 });
