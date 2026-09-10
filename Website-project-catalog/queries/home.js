@@ -29,17 +29,10 @@ async function loadData(query) {
 
     containerMain = document.getElementById('product-container');
 
-    //console.log("container:", containerMain);
+    console.log("container:", containerMain);
 
-    //containerMain.innerHTML = '';
-
-    
-    
+    containerMain.innerHTML = '';
     renderPage(1);
-    
-    
-    
-    
     const products = data[category];
 
     // //console.log("products:", products);
@@ -62,5 +55,5 @@ async function loadData(query) {
 // Initial load
 document.addEventListener("DOMContentLoaded", () => {
     loadData(getQuery());
-    console.log("testing 1");
+    //console.log("testing 1");
 });

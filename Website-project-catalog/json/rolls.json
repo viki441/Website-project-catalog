@@ -2,101 +2,60 @@
     "rolls": [
         {
             "type": "rolls-79",
-            "heading": "Термо касови ролки",
-            "image": "images/rolls/mockup.jpg",
-            "description": "79мм./ 37м. | 12бр. стек | кашон: 120 ролки",
-            "price": 0.57
+            "heading": "Термо касови ролки"
+        
         },
         {
             "type": "rolls-79",
-            "heading": "Термо касови ролки",
-            "image": "images/rolls/mockup.jpg",
-            "description": "79мм./ 67м. | 12бр. стек | кашон: 72 ролки",
-            "price": 1.02
+            "heading": "Термо касови ролки"         
         },
         {
             "type": "rolls-79",
-            "heading": "Термо касови ролки",
-            "image": "images/rolls/mockup.jpg",
-            "description": "79мм./ 75м. | 6бр. стек | кашон: 60 ролки",
-            "price": 1.12
+            "heading": "Термо касови ролки"
         },
         {
             "type": "rolls-79",
-            "heading": "Термо касови ролки",
-            "image": "images/rolls/mockup.jpg",
-            "description": "79мм./ 80м. | 6бр. стек | кашон: 60 ролки",
-            "price": 1.19
+            "heading": "Термо касови ролки"
         },
         {
             "type": "rolls-57",
-            "heading": "Термо касови ролки",
-            "image": "images/rolls/mockup.jpg",
-            "description": "57мм./ 14м. | 20бр. стек | кашон: 480 ролки ",
-            "price": 0.19
+            "heading": "Термо касови ролки"
         },
         {
             "type": "rolls-57",
-            "heading": "Термо касови ролки",
-            "image": "images/rolls/mockup.jpg",
-            "description": "57мм./ 17м. | 20бр. стек | кашон: 320 ролки",
-            "price": 0.20
+            "heading": "Термо касови ролки"
         },
         {
             "type": "rolls-57",
-            "heading": "Термо касови ролки",
-            "image": "images/rolls/mockup.jpg",
-            "description": "57мм./ 19м. | 20бр. стек | кашон: 320 ролки",
-            "price": 0.24
+            "heading": "Термо касови ролки"
         },
         {
             "type": "rolls-57",
-            "heading": "Термо касови ролки",
-            "image": "images/rolls/mockup.jpg",
-            "description": "57мм./ 26м. | 12бр. стек | кашон: 216 ролки",
-            "price": 0.30
+            "heading": "Термо касови ролки"
         },
         {
             "type": "rolls-57",
-            "heading": "Термо касови ролки",
-            "image": "images/rolls/mockup.jpg",
-            "description": "57мм./ 28м. | 12бр. стек | кашон: 216 ролки",
-            "price": 0.34
+            "heading": "Термо касови ролки"
         },
         {
             "type": "rolls-57",
-            "heading": "Термо касови ролки",
-            "image": "images/rolls/mockup.jpg",
-            "description": "57мм./ 34м. | 12бр. стек | кашон: 192 ролки",
-            "price": 0.40
+            "heading": "Термо касови ролки"
         },
         {
             "type": "rolls-57",
-            "heading": "Термо касови ролки",
-            "image": "images/rolls/mockup.jpg",
-            "description": "57мм./ 65м. | 6бр. стек | кашон: 120 ролки",
-            "price": 0.74
+            "heading": "Термо касови ролки"
         },
         {
             "type": "rolls-57",
-            "heading": "Термо касови ролки",
-            "image": "images/rolls/mockup.jpg",
-            "description": "57мм./ 80м. | 6бр. стек | кашон: 84 ролки",
-            "price": 0.89
+            "heading": "Термо касови ролки"
         },
         {
             "type": "rolls-57",
-            "heading": "Термо касови ролки",
-            "image": "images/rolls/mockup.jpg",
-            "description": "57мм./ 9.5м. | 24бр. стек | кашон: 480 ролки",
-            "price": 0.14
+            "heading": "Термо касови ролки"
         },
         {
             "type": "rolls-57",
-            "heading": "Термо касови ролки",
-            "image": "images/rolls/mockup.jpg",
-            "description": "57мм./ 12м. | 20бр. стек | кашон: 480 ролки",
-            "price": 0.17
+            "heading": "Термо касови ролки"
         }
     ]
 }

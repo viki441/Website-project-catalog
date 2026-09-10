@@ -5,10 +5,10 @@ function renderPage(page) {
     const start = (page - 1) * pageLimit;
     const end = start + pageLimit;
 
+
     console.log(data);
     console.log(Array.isArray(data));
     console.log(typeof data);
-
 
     const currentProperties = data.slice(start, end);
 
