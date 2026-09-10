@@ -5,6 +5,4 @@ function prepareProduct(container)
 
     const linkToProduct = document.createElement("a");
     
-
-
 }

@@ -9,7 +9,7 @@ function renderPage(page) {
     console.log(Array.isArray(data));
     console.log(typeof data);
 
-    
+
     const currentProperties = data.slice(start, end);
 
     const pageCount = Math.ceil(data.length / pageLimit);
@@ -18,6 +18,7 @@ function renderPage(page) {
         `Страница (${page} от ${pageCount})`;
 
 
+console.log("check");
     //-----------------------------------------------------------------------------
     const products = data[category];
     const filteredProducts =
