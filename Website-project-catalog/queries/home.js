@@ -34,7 +34,13 @@ async function loadData(query) {
 
     //containerMain.innerHTML = '';
 
-    renderPage(1)
+    
+    
+    //renderPage(1);
+    
+    
+    
+    
     // const pro;ducts = data[category];
 
     // //console.log("products:", products);
