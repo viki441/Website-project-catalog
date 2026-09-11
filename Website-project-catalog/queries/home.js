@@ -32,7 +32,7 @@ async function loadData(query) {
     console.log("container:", containerMain);
 
     containerMain.innerHTML = '';
-    renderPage(1);
+    
     const products = data[category];
 
     // //console.log("products:", products);
@@ -43,8 +43,8 @@ async function loadData(query) {
             : products.filter(product => product.type === query);
 
     // //console.log("filtered:", filteredProducts);
-
-
+    console.log(data);
+    //renderPage(1);
 
     filteredProducts.forEach(product => {
         makeCard(containerMain, product);
