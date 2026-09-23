@@ -61,6 +61,8 @@
   display: block;
   width: fit-content;
   height: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .owl-carousel .owl-nav.disabled,

@@ -16,6 +16,7 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   margin: 0;
+  line-height: 1.5;
 }
 
 body {
@@ -110,11 +111,71 @@ img {
   width: auto;
 }
 
+.contacts>a>img {
+  width: 60px;
+}
+
+.margin2x>h2,
+h1 {
+  margin: 40px;
+  text-align: center;
+}
+
+#product-container>div>img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+
+.map-container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 60vh;
+}
+
+.map-container iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.product-container
+{
+  float: none !important;
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    /* hyphens: auto; */
+    overflow-wrap: break-word; 
+  
+}
+
+.product-info > p
+{
+  
+  font-size: large;
+}
+.product-info > p:nth-child(odd)
+{
+  font-weight: 700;
+}
+
 /* .owl-item img,
 .full-img {
   max-width: none;
   width:100px; 
 } */
+
+.contacts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+}
 
 .item {
   height: 300px;
@@ -296,7 +357,7 @@ nav {
   display: flex;
   width: 100%;
   background: #152732;
-  
+
 }
 
 .top-nav {
@@ -787,6 +848,10 @@ nav.breadcrumb-nav ul li:last-child:after {
 
 .margin-bottom {
   margin-bottom: 1.25rem !important;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .margin-bottom2x {
@@ -2686,6 +2751,10 @@ nav.breadcrumb-nav ul li:last-child:after {
   display: none;
 }
 
+
+
+
+
 @media screen and (max-width:1050px) {
 
   /* .left, .right {
@@ -3201,6 +3270,7 @@ nav.breadcrumb-nav ul li:last-child:after {
 @media screen and (max-width:780px) {
 
 
+
   .full-img {
     width: 90%;
   }
@@ -3252,6 +3322,7 @@ nav.breadcrumb-nav ul li:last-child:after {
   .hide-s {
     display: none !important;
   }
+
 
   .count-number {
     margin-right: -1.25rem;
@@ -3598,6 +3669,9 @@ nav.breadcrumb-nav ul li:last-child:after {
 
 
 }
+
+
+
 
 .grid .s-1,
 .grid .s-2,

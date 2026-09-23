@@ -1,8 +1,10 @@
-function makeCard(containerMain, data)
-{
+function makeCard(containerMain, data, nameProd, id) {
+
+    const idProd = `${nameProd}:${id}`;
     //create main container for individal item
     const container = document.createElement("div");
-    container.classList.add("s-12", "m-6", "l-4", "xl-4","xxl-3");
+    container.classList.add("s-12", "m-6", "l-4", "xl-4", "xxl-3", "card", "h-100");
+
     containerMain.appendChild(container);
 
 
@@ -13,7 +15,6 @@ function makeCard(containerMain, data)
     //image.src = data.images;
     image.setAttribute("src", data.image);
     container.appendChild(image);
-
 
 
 
@@ -50,8 +51,22 @@ function makeCard(containerMain, data)
     const seeContainer = document.createElement("div");
     seeContainer.classList.add("customform", "s-12", "margin-bottom2x");
     const seeBtn = document.createElement("button");
-    seeBtn.innerHTML = 'Виж';
+
     seeBtn.classList.add("button", "rounded-btn", "submit-btn", "s-12");
+    //to make id for new page
+    seeBtn.dataset.productId = idProd;
+    seeBtn.innerHTML = 'Виж';
+    seeBtn.onclick = () => {
+        console.log("testing");
+        window.location.href = `product.html?id=${encodeURIComponent(idProd)}`;
+    };
+
+
+
+
+
+
+
     seeContainer.appendChild(seeBtn);
     container.appendChild(seeContainer);
 

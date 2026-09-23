@@ -1,6 +1,7 @@
 let data = [];
 let containerMain;
 const pageLimit = 10;
+let id = 0;
 
 
 function getQuery() {
@@ -13,19 +14,11 @@ function getQuery() {
 
 async function loadData(query) {
 
-    //console.log("loadData:", query);
-
     const category = query.split('-')[0];
-
-    //console.log("category:", category);
 
     const response = await fetch(`json/${category}.json`);
 
-    //console.log("response:", response);
-
     data = await response.json();
-
-    //console.log("data:", data);
 
     containerMain = document.getElementById('product-container');
 
@@ -35,20 +28,18 @@ async function loadData(query) {
     
     const products = data[category];
 
-    // //console.log("products:", products);
-
     const filteredProducts =
         query === category
             ? products
             : products.filter(product => product.type === query);
 
-    // //console.log("filtered:", filteredProducts);
-    console.log(data);
-    //renderPage(1);
 
     filteredProducts.forEach(product => {
-        makeCard(containerMain, product);
+
+        makeCard(containerMain, product, category, id++);
+
     });
+    id = 0;
 }
 
 
