@@ -42,6 +42,6 @@ function editProduct(data) {
  
     //price
     const price = document.getElementById("product-price");
-    price.textContent = "Цена: " + data.price;
+    price.textContent = "Цена: EUR " + data.price + " с ДДС";
 
 }

@@ -21,7 +21,7 @@ function makeCard(containerMain, data, nameProd, id) {
     //price
     const price = document.createElement("h5");
     price.classList.add("query-price");
-    price.innerHTML = "EUR " + data.price;
+    price.innerHTML = "EUR " + data.price + " с ДДС";
     container.appendChild(price);
 
 
@@ -60,12 +60,6 @@ function makeCard(containerMain, data, nameProd, id) {
         console.log("testing");
         window.location.href = `product.html?id=${encodeURIComponent(idProd)}`;
     };
-
-
-
-
-
-
 
     seeContainer.appendChild(seeBtn);
     container.appendChild(seeContainer);

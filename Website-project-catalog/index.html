@@ -51,7 +51,7 @@
                <ul class="left">
                   <li>
                      <div class="m-12 l-2">
-                        <img class="full-img logo" src="images/logo-white.png">
+                       <img class="full-img logo" src="images/logo-white.png" alt="Home" onclick="window.location.href='index.html'" style="cursor: pointer;">
                      </div>
                   </li>
                </ul>
@@ -69,7 +69,7 @@
                <ul class="left">
                   <li>
                      <div class="m-12 l-2">
-                        <img class="full-img logo" src="images/logo-white.png">
+                         <img class="full-img logo" src="images/logo-white.png" alt="Home" onclick="window.location.href='index.html'" style="cursor: pointer;">
                      </div>
                   </li>
                </ul>
@@ -102,37 +102,47 @@
                      <li>
                         <a id="termo-rolls">Термо ролки</a>
                         <ul>
-                           <li><a href="?query=rolls" data-query="all-rolls">Всички</a></li>
                            <li><a href="?query=rolls-57" data-query="rolls-57">Модел 57мм.</a></li>
                            <li><a href="?query=rolls-79" data-query="rolls-79">Модел 79мм.</a></li>
                         </ul>
                      </li>
 
                      <li>
-                        <a id="print-paper">Принтерна хартия</a>
-                        <ul>
-                           <li><a href="?query=print" data-query="all-prints">Всички</a></li>
-                           <li><a href="?query=print-koehler" data-query="koehler">Koehler хартия</a></li>
-                           <li><a href="?query=print-artist" data-query="artist">ARTIST PRINT</a></li>
+                        <a id="copy-paper">Хартия</a>
+                        <ul>                          
+                           <li><a href="?query=copy-paper" data-query="copy-paper">Копирна хартия</a></li>
+                           <li><a href="?query=print-koehler" data-query="koehler">Принтерна хартия</a></li>
+                           <li><a href="?query=artist" data-query="artist">ARTIST PRINT</a></li>
                         </ul>
                      </li>
 
                      <li>
-                        <a id="copy-paper">Копирна хартия</a>
-                        <ul>
-                           <li><a href="?query=copy" data-query="all-copy">Всички</a></li>
-                           <li><a href="?query=copy-paper" data-query="copy-paper">Копирна хартия</a></li>
-                           <li><a href="?query=copy-cardboard" data-query="copy-cardboard">Копирен картон</a></li>
-                        </ul>
+                        <a href="?query=cardboard" data-query="cardboard">Копирен картон</a>
                      </li>
 
+                     <!-- 
                      <li>
                         <a href="?query=toners" data-query="all-toners">Тонер касети</a>
-                     </li>
+                     </li> 
+                     -->
 
                      <li>
                         <a href="?query=archive" data-query="all-archive">Класиране и архивиране</a>
                      </li>
+
+                     <li>
+                        <a href="?query=writing" data-query="all-writing">Пишещи пособия</a>
+                     </li>
+
+                     <li>
+                        <a href="?query=tapes" data-query="all-tapes">Самозалепващи ленти</a>
+                     </li>
+
+                     <li>
+                        <a href="?query=stretch" data-query="all-stretch">Стреч</a>
+                     </li>
+
+
 
                   </ul>
                </div>
@@ -168,7 +178,7 @@
                <div class="margin2x" id="product-container">
                   <div class="row align-items-center py-5">
                      <div class="col-lg-3" id="page-info">
-                        
+
                      </div>
                      <div class="col-lg-6 text-center">
                         <div class="custom-pagination" id="pagination">
@@ -202,7 +212,7 @@
    <script type="text/javascript" src="js/card-maker.js"></script>
    <script type="text/javascript" src="owl-carousel/owl.carousel.js"></script>
    <script type="text/javascript" src="js/burger-menu.js"></script>
- <!--  <script type="text/javascript" src="js/pagination.js"></script>-->
+   <!--  <script type="text/javascript" src="js/pagination.js"></script>-->
    <script type="text/javascript">
       jQuery(document).ready(function ($) {
          var owl = $('#header-carousel');

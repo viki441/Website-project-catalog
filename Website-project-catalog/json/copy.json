@@ -5,14 +5,14 @@
             "heading": "Копирна хартия Niveus FIT+",
             "image": "images/copy/Niveus-fit.png",
             "description": "А4 | 80гр/м2 | белота 165 +- 3.0 | плътност 98гр/см3 | непрозрачност 94.0 +- 1.0% | яркост 110.0+- 1.5 | 500 листа в пакет | 5 пакета в кашон",
-            "price": 2.96
+            "price": 3.41
         },
         {
             "type": "copy-paper",
             "heading": "Копирна хартия Blue Copying Paper",
             "image": "images/copy/blue-copying-paper.png",
             "description": "Плътност 75гр/м2 | 500 листа в пакет | 5 пакета в кашон",
-            "price": 2.76
+            "price": 3.22
         },
         {
             "type": "copy-paper",
@@ -26,70 +26,7 @@
             "heading": "Копирна хатрия Red Copying Paper Mondi",
             "image": "images/copy/red-copying-paper.png",
             "description": "Копирна хатрия Red Copying Paper Mondi",
-            "price": 2.90
-        },
-        {
-            "type": "three-layered",
-            "heading": "Копирна хартия DNS PREMIUM - 80 грама",
-            "image": "images/copy/premium-dns.png",
-            "description": "А4 | плътност: 80гр/м2 | CIE белота: 169+- 3.0 | непрозрачност: 92.5% | яркост: 113.5 +- 1.5 | 500 листа в пакет | 5 пакета в кашон",
-            "price": 4.60
-        },
-        {
-            "type": "copy-cardboard",
-            "heading": "Копирен картон DNS Premium",
-            "image": "images/copy/premium-dns.png",
-            "description": "A4 | 160гр | 250 листа в пакет | 5 пакета в кашон",
-            "price": 8.27
-        },
-        {
-            "type": "copy-cardboard",
-            "heading": "Копирен картон DNS Premium",
-            "image": "images/copy/premium-dns.png",
-            "description": "A3 | 160гр | 250 листа в пакет | 5 пакета в кашон",
-            "price": 16.57
-        },
-        {
-            "type": "copy-cardboard",
-            "heading": "Копирен картон DNS Premium",
-            "image": "images/copy/premium-dns.png",
-            "description": "A4 | 200гр | 250 листа в пакет | 4 пакета в кашон",
-            "price": 10.79
-        },
-        {
-            "type": "copy-cardboard",
-            "heading": "Копирен картон DNS Premium",
-            "image": "images/copy/premium-dns.png",
-            "description": "A3 | 200гр | 250 листа в пакет | 4 пакета в кашон",
-            "price": 21.58
-        },
-        {
-            "type": "copy-cardboard",
-            "heading": "Копирен картон DNS Premium",
-            "image": "images/copy/premium-dns.png",
-            "description": "A4 | 250гр | 150 листа в пакет | 5 пакета в кашон",
-            "price": 9.46
-        },
-        {
-            "type": "copy-cardboard",
-            "heading": "Копирен картон DNS Premium",
-            "image": "images/copy/premium-dns.png",
-            "description": "A3 | 250гр | 150 листа в пакет | 5 пакета в кашон",
-            "price": 16.34
-        },
-        {
-            "type": "copy-cardboard",
-            "heading": "Копирен картон DNS Premium",
-            "image": "images/copy/premium-dns.png",
-            "description": "A4 | 300гр | 125 листа в пакет | 5 пакета в кашон",
-            "price": 8.16
-        },
-        {
-            "type": "copy-cardboard",
-            "heading": "Копирен картон DNS Premium",
-            "image": "images/copy/premium-dns.png",
-            "description": "A3 | 300гр | 125 листа в пакет | 5 пакета в кашон",
-            "price": 16.34
+            "price": 3.34
         }
     ]
 }

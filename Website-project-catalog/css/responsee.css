@@ -111,10 +111,18 @@ img {
   width: auto;
 }
 
-.contacts>a>img {
+.contacts {
   width: 60px;
 }
-
+.purchase-at, .purchase-at-contacts
+{
+  display: flex;
+  flex-direction: row;
+}
+.purchase-at-contacts
+{
+  justify-content: space-around;
+}
 .margin2x>h2,
 h1 {
   margin: 40px;
@@ -846,10 +854,10 @@ nav.breadcrumb-nav ul li:last-child:after {
   width: 100%;
 }
 
-.margin-bottom {
+.margin-bottom{
   margin-bottom: 1.25rem !important;
   display: -webkit-box;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }

@@ -3,79 +3,37 @@
         {
             "type": "archive-folders",
             "heading": "Папка с машинка и европерфорация",
-            "image": "images/archive/red-folder.jpg",
-            "description": "Цвят: червен | Материал: PVC | 25 броя в опаковка | 400 броя в кашон",
-            "price": 0.12
-        },
-        {
-            "type": "archive-folders",
-            "heading": "Папка с машинка и европерфорация",
-            "image": "images/archive/orange-folder.jpg",
-            "description": "Цвят: оранжев | Материал: PVC | 25 броя в опаковка | 400 броя в кашон",
-            "price": 0.12
-        },
-        {
-            "type": "archive-folders",
-            "heading": "Папка с машинка и европерфорация",
-            "image": "images/archive/yellow-folder.jpg",
-            "description": "Цвят: жълт | Материал: PVC | 25 броя в опаковка | 400 броя в кашон",
-            "price": 0.12
-        },
-        {
-            "type": "archive-folders",
-            "heading": "Папка с машинка и европерфорация",
-            "image": "images/archive/green-folder.jpg",
-            "description": "Цвят: зелен | Материал: PVC | 25 броя в опаковка | 400 броя в кашон",
-            "price": 0.12
-        },
-        {
-            "type": "archive-folders",
-            "heading": "Папка с машинка и европерфорация",
-            "image": "images/archive/blue-folder.jpg",
-            "description": "Цвят: светло син | Материал: PVC | 25 броя в опаковка | 400 броя в кашон",
-            "price": 0.12
-        },
-        {
-            "type": "archive-folders",
-            "heading": "Папка с машинка и европерфорация",
-            "image": "images/archive/dark-blue-folder.jpg",
-            "description": "Цвят: тъмно син | Материал: PVC | 25 броя в опаковка | 400 броя в кашон",
-            "price": 0.12
-        },
-        {
-            "type": "archive-folders",
-            "heading": "Папка с машинка и европерфорация",
-            "image": "images/archive/white-folder.jpg",
-            "description": "Цвят: бял | Материал: PVC | 25 броя в опаковка | 400 броя в кашон",
-            "price": 0.12
-        },
-        {
-            "type": "archive-folders",
-            "heading": "Папка с машинка и европерфорация",
-            "image": "images/archive/grey-folder.jpg",
-            "description": "Цвят: сив | Материал: PVC | 25 броя в опаковка | 400 броя в кашон",
-            "price": 0.12
-        },
-        {
-            "type": "archive-folders",
-            "heading": "Папка с машинка и европерфорация",
-            "image": "images/archive/black-folder.jpg",
-            "description": "Цвят: черен | Материал: PVC | 25 броя в опаковка | 400 броя в кашон",
-            "price": 0.12
-        },
-        {
-            "type": "archive-folders",
-            "heading": "Папка с машинка и европерфорация",
             "image": "images/archive/folders.jpg",
-            "description": "Цвят: роза, лилав, тюркоаз | Материал: PVC | 25 броя в опаковка | 400 броя в кашон",
+            "description": "Материал: PVC | 25 броя в опаковка | 400 броя в кашон | Цветове: червен, оранжев, жълт, зелен, светлосин, тъмносин, бял, сив, черен, роза, лилав, тюркоаз",
             "price": 0.12
         },
-         {
+        {
             "type": "archive-pockets",
             "heading": "Джоб А4 кристал Atlantis",
-            "image": "images/archive/stationary-a4-pockets.png",
+            "image": "images/archive/stationery-a4-pockets.png",
             "description": "Плътност: 40 микрона | 100 бр. в пакет | 2500 бр. в кашон",
-            "price": 0.22
+            "price": 0.025
+        },
+        {
+            "type": "archive-containers",
+            "heading": "Архивен кашон с капак Atlantis",
+            "image": "images/archive/archive-cardboard.png",
+            "description": "Дължина: 540 мм | Ширина: 360 мм | Височина: 260 мм | 10 броя в опаковка | Побира 5 архивни кутии от 100 мм или 6 архивни кутии от 80 мм",
+            "price": 3.50
+        },
+        {
+            "type": "archive-containers",
+            "heading": "Архивна кутия 100 мм цветна Esselte",
+            "image": "images/archive/archive-box.png",
+            "description": "Дълбочина: 350 мм | Ширина: 100 мм | Височина: 250 мм | 25 броя в опаковка | 100% рециклиран картон",
+            "price": 1.25
+        },
+        {
+            "type": "archive-binders",
+            "heading": "Архивна кутия 100 мм цветна Esselte",
+            "image": "images/archive/binders.png",
+            "description": "Дълбочина: 350 мм | Ширина: 100 мм | Височина: 250 мм | 25 броя в опаковка | 100% рециклиран картон",
+            "price": 2.10
         }
     ]
 }
