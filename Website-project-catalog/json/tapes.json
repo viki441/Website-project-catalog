@@ -5,63 +5,72 @@
             "heading": "Самозалепваща прозрачна лента Muroll",
             "image": "images/tapes/through-tape-muroll.png",
             "description": "Цвят: Прозрачен | Ширина: 48 мм. | Дължина: 66 м. | 6 броя в опаковка | 36 броя в кашон",
-            "price": 0.77
+            "price": 0.77,
+            "more": []
         },
         {
             "type": "tapes",
             "heading": "Самозалепваща лента Muroll",
             "image": "images/tapes/brown-tape-muroll.jpg",
             "description": "Цвят: Кафяв | Ширина: 48 мм. | Дължина: 66 м. | 6 броя в опаковка | 36 броя в кашон",
-            "price": 0.77
+            "price": 0.77,
+            "more": []
         },
          {
             "type": "tapes",
             "heading": "Самозалепваща лента Muroll",
             "image": "images/tapes/white-tape-muroll.png",
             "description": "Цвят: Бял | Ширина: 48 мм. | Дължина: 66 м. | 6 броя в опаковка | 36 броя в кашон",
-            "price": 0.77
+            "price": 0.77,
+            "more": []
         },
         {
             "type": "tapes",
             "heading": "Самозалепваща лента Fralex - Италия",
             "image": "images/tapes/through-tape-fralex.jpg",
             "description": "Цвят: Прозрачен | Ширина: 25 мм. | Дължина: 33 м. | 6 броя в опаковка | 216 броя в кашон",
-            "price": 0.50
+            "price": 0.50,
+            "more": []
         },
         {
             "type": "tapes",
             "heading": "Самозалепваща лента Fralex - Италия",
             "image": "images/tapes/through-tape-fralex.jpg",
             "description": "Цвят: Прозрачен | Ширина: 25 мм. | Дължина: 66 м. | 12 броя в опаковка | 72 броя в кашон",
-            "price": 0.62
+            "price": 0.62,
+            "more": []
         },
         {
             "type": "tapes",
             "heading": "Хартиена самозалепваща лента Muroll",
             "image": "images/tapes/paper-tape.png",
             "description": "Ширина: 50 мм. | Дължина: 50 м. | 6 броя в опаковка",
-            "price": 1.80
+            "price": 1.80,
+            "more": []
         },
         {
             "type": "tapes",
             "heading": "Хартиена самозалепваща лента Muroll",
             "image": "images/tapes/paper-tape.png",
             "description": "Ширина: 38 мм. | Дължина: 50 м. | 6 броя в опаковка",
-            "price": 1.30
+            "price": 1.30,
+            "more": []
         },
         {
             "type": "tapes",
             "heading": "Хартиена самозалепваща лента Muroll",
             "image": "images/tapes/paper-tape.png",
             "description": "Ширина: 25 мм. | Дължина: 50 м. | 9 броя в опаковка",
-            "price": 0.89
+            "price": 0.89,
+            "more": []
         },
         {
             "type": "tapes",
             "heading": "Хартиена самозалепваща лента Muroll",
             "image": "images/tapes/paper-tape.png",
             "description": "Ширина: 19 мм. | Дължина: 50 м. | 12 броя в опаковка",
-            "price": 0.75
+            "price": 0.75,
+            "more": []
         }
     ]
 }

@@ -169,7 +169,7 @@ h1 {
 }
 .product-info > p:nth-child(odd)
 {
-  font-weight: 700;
+  font-weight: 900;
 }
 
 /* .owl-item img,

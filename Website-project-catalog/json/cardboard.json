@@ -5,63 +5,72 @@
             "heading": "Копирна хартия DNS PREMIUM - 80 грама",
             "image": "images/copy/premium-dns.png",
             "description": "А4 | плътност: 80гр/м2 | CIE белота: 169+- 3.0 | непрозрачност: 92.5% | яркост: 113.5 +- 1.5 | 500 листа в пакет | 5 пакета в кашон",
-            "price": 4.60
+            "price": 4.60,
+            "more": []
         },
         {
             "type": "cardboard",
             "heading": "Копирен картон DNS Premium",
             "image": "images/copy/premium-dns.png",
             "description": "A4 | 160гр | 250 листа в пакет | 5 пакета в кашон",
-            "price": 9.20
+            "price": 9.20,
+            "more": []
         },
         {
             "type": "cardboard",
             "heading": "Копирен картон DNS Premium",
             "image": "images/copy/premium-dns.png",
             "description": "A3 | 160гр | 250 листа в пакет | 5 пакета в кашон",
-            "price": 18.40
+            "price": 18.40,
+            "more": []
         },
         {
             "type": "cardboard",
             "heading": "Копирен картон DNS Premium",
             "image": "images/copy/premium-dns.png",
             "description": "A4 | 200гр | 250 листа в пакет | 4 пакета в кашон",
-            "price": 12.15
+            "price": 12.15,
+            "more": []
         },
         {
             "type": "cardboard",
             "heading": "Копирен картон DNS Premium",
             "image": "images/copy/premium-dns.png",
             "description": "A3 | 200гр | 250 листа в пакет | 4 пакета в кашон",
-            "price": 24.00
+            "price": 24.00,
+            "more": []
         },
         {
             "type": "cardboard",
             "heading": "Копирен картон DNS Premium",
             "image": "images/copy/premium-dns.png",
             "description": "A4 | 250гр | 150 листа в пакет | 5 пакета в кашон",
-            "price": 9.16
+            "price": 9.16,
+            "more": []
         },
         {
             "type": "cardboard",
             "heading": "Копирен картон DNS Premium",
             "image": "images/copy/premium-dns.png",
             "description": "A3 | 250гр | 150 листа в пакет | 5 пакета в кашон",
-            "price": 18.40
+            "price": 18.40,
+            "more": []
         },
         {
             "type": "cardboard",
             "heading": "Копирен картон DNS Premium",
             "image": "images/copy/premium-dns.png",
             "description": "A4 | 300гр | 125 листа в пакет | 5 пакета в кашон",
-            "price": 9.16
+            "price": 9.16,
+            "more": []
         },
         {
             "type": "cardboard",
             "heading": "Копирен картон DNS Premium",
             "image": "images/copy/premium-dns.png",
             "description": "A3 | 300гр | 125 листа в пакет | 5 пакета в кашон",
-            "price": 18.40
+            "price": 18.40,
+            "more": []
         }
     ]
 }

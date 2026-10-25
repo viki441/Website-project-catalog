@@ -4,64 +4,55 @@
             "type": "rolls",
             "heading": "Термо касови ролки",
             "image": "images/rolls/mockup.jpg",
-            "description": "79мм., 59мм.",
-            "price": "0.14 - 1.16"
+            "description": "Термо касови ролки : 79мм., 59мм."
         },
         {
             "type": "copy",
             "heading": "Копирна хартия",
             "image": "images/copy/Niveus-fit.png",
-            "description": "smth",
-            "price": 1.02
+            "description": "Различни видове копирна хартия"
         },
         {
             "type": "print",
             "heading": "Принтерна хартия",
             "image": "images/print/artist.jpg",
-            "description": "dsadas",
-            "price": 1.12
+            "description": "Различни видове принтерна хартия"
         },
         {
             "type": "cardboard",
             "heading": "Копирен картон",
             "image": "images/copy/premium-dns.png",
-            "description": "он: 480 ролки ",
-            "price": 0.20
+            "description": "Копирни картони DNS PREMIUM"
         },
         {
             "type": "archive",
             "heading": "Класиране и архивиране",
             "image": "images/archive/binders.png",
-            "description": "ки",
-            "price": 0.22
+            "description": "Материали за класиране и архивиране"
         },
         {
             "type": "writing",
-            "heading": "Пишещи пособия",
+            "heading": "Канцеларски материали",
             "image": "images/writing/pens.jpg",
-            "description": "57мм./ 19м. | 20бр. стек | кашон: 320 ролки",
-            "price": 0.23
+            "description": "Пишещи пособия и др."
         },
         {
             "type": "tapes",
             "heading": "Самозалепващи ленти",
             "image": "images/tapes/paper-tape.png",
-            "description": "57мм./ 26м. | 12бр. стек ",
-            "price": 0.30
+            "description": "Различни видове самозалепващи ленти"
         },
         {
             "type": "stretch",
             "heading": "Стреч",
             "image": "images/stretch/black-stretch.png",
-            "description": "57мм./ 28м. | 12бр. стек | кашон: 216 ролки",
-            "price": 0.34
+            "description": "Различни видове стреч"
         },
         {
             "type": "wideformat",
             "heading": "Широкоформатна хартия",
             "image": "images/wideformat/wideformat.jpg",
-            "description": "Плотерни роли 297мм. - 1067мм.",
-            "price": 0.34
+            "description": "Различни видове широкоформатна хартия"
         }
     ]
 }

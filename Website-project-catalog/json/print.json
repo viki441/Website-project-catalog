@@ -5,84 +5,96 @@
             "heading": "Принтерна хартия еднопластова",
             "image": "images/print/layer1.jpeg",
             "description": "еднопластова 150мм | 11 инча | брой листи в кашон: 3000",
-            "price": 25.60
+            "price": 25.60,
+            "more": []
         },
         {
             "type": "print",
             "heading": "Принтерна хартия двупластова",
             "image": "images/print/layer2.jpeg",
             "description": "двупластова 150мм | 11 инча | брой листи в кашон: 1400",
-            "price": 28.70
+            "price": 28.70,
+            "more": []
         },
         {
             "type": "print",
             "heading": "Принтерна хартия еднопластова",
             "image": "images/print/layer1.jpeg",
             "description": "еднопластова 240мм | 11 инча | брой листи в кашон: 1500",
-            "price": 17.30
+            "price": 17.30,
+            "more": []
         },
         {
             "type": "print",
             "heading": "Принтерна хартия двупластова",
             "image": "images/print/layer2.jpeg",
             "description": "двупластова 240мм | 11 инча | брой листи в кашон: 650",
-            "price": 17.30
+            "price": 17.30,
+            "more": []
         },
         {
             "type": "print",
             "heading": "Принтерна хартия трипластова",
             "image": "images/print/layer3.jpeg",
             "description": "трипластова 240мм | 11 инча | брой листи в кашон: 420",
-            "price": 17.95
+            "price": 17.95,
+            "more": []
         },
         {
             "type": "print",
             "heading": "Принтерна хартия четирипластова",
             "image": "images/print/layer4.jpeg",
             "description": "четирипластова 240мм | 11 инча | брой листи в кашон: 380",
-            "price": 31.00
+            "price": 31.00,
+            "more": []
         },
         {
             "type": "print",
             "heading": "Принтерна хартия еднопластова",
             "image": "images/print/layer1.jpeg",
             "description": "еднопластова 380мм | 11 инча | брой листи в кашон: 1500",
-            "price": 31.30
+            "price": 31.30,
+            "more": []
         },
         {
             "type": "print",
             "heading": "Принтерна хартия двупластова",
             "image": "images/print/layer2.jpeg",
             "description": "двупластова 380мм | 11 инча | брой листи в кашон: 650",
-            "price": 35.60
+            "price": 35.60,
+            "more": []
         },
         {
             "type": "print",
             "heading": "Принтерна хартия ARTIST PRINT",
             "image": "images/print/artist.jpg",
             "description": "ARTIST PRINT - ширина: 150мм | дължина: 11 инча | 2-пластова | Цветна | 1700 листа",
-            "price": 0
+            "price": 0,
+            "more": []
         },
          {
             "type": "print",
             "heading": "Принтерна хартия ARTIST PRINT",
             "image": "images/print/artist.jpg",
             "description": "ARTIST PRINT - ширина: 150мм | дължина: 11 инча | 2-пластова | Бяла | 1700 листа",
-            "price": 0
+            "price": 0,
+            "more": []
         },
         {
             "type": "print",
             "heading": "Принтерна хартия ARTIST PRINT",
             "image": "images/print/artist.jpg",
             "description": "ARTIST PRINT - ширина: 240мм | дължина: 11 инча | 2-пластова | Цветна | 850 листа",
-            "price": 27.08
+            "price": 27.08,
+            "more": []
         },
         {
             "type": "print",
             "heading": "Принтерна хартия ARTIST PRINT",
             "image": "images/print/artist.jpg",
             "description": "ARTIST PRINT - ширина: 240мм | дължина: 11 инча | 2-пластова | Бяла| 850 листа",
-            "price": 27.08
+            "price": 27.08,
+            "more": []
         }
     ]
 }
