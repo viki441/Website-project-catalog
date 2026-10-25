@@ -6,7 +6,7 @@ window.addEventListener("load", async () => {
 
     const cat = id.split(':')[0];
     const index = Number(id.split(':')[1]);
-    
+
     const res = await fetch(`json/${cat}.json`);
 
 
@@ -29,8 +29,6 @@ function editProduct(data) {
     const images = document.getElementById("product-image");
     images.setAttribute("src", data.image);
 
-    
-
     //heading
     const heading = document.getElementById("product-heading");
     heading.textContent = data.heading;
@@ -39,7 +37,20 @@ function editProduct(data) {
 
     const descr = document.getElementById("product-descr");
     descr.innerHTML = descriptions.join("<br>");
- 
+
+    //more
+    const moreDesc = document.getElementById("more");
+    moreDesc.innerHTML = "";
+
+    data.more.forEach(item => {
+        const p = document.createElement("p");
+        p.textContent = item;
+        //p.classList.add("margin-bottom");
+        moreDesc.appendChild(p);
+        moreDesc.appendChild(document.createElement("br"));
+    });
+
+
     //price
     const price = document.getElementById("product-price");
     price.textContent = "Цена: EUR " + data.price + " с ДДС";

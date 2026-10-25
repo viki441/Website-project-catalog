@@ -1,4 +1,4 @@
-function makeCard(containerMain, data, nameProd, id) {
+function makeCard(containerMain, data,nameProd, id) {
 
     const idProd = `${nameProd}:${id}`;
     //create main container for individal item
@@ -57,7 +57,6 @@ function makeCard(containerMain, data, nameProd, id) {
     seeBtn.dataset.productId = idProd;
     seeBtn.innerHTML = 'Виж';
     seeBtn.onclick = () => {
-        console.log("testing");
         window.location.href = `product.html?id=${encodeURIComponent(idProd)}`;
     };
 

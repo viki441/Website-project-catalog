@@ -1,63 +1,63 @@
 {
     "tapes": [
         {
-            "type": "tapes-pens",
+            "type": "tapes",
             "heading": "Самозалепваща прозрачна лента Muroll",
             "image": "images/tapes/through-tape-muroll.png",
-            "description": "Прозрачен | Ширина: 48 мм. | Дължина: 66 м. | 6 броя в опаковка | 36 броя в кашон",
+            "description": "Цвят: Прозрачен | Ширина: 48 мм. | Дължина: 66 м. | 6 броя в опаковка | 36 броя в кашон",
             "price": 0.77
         },
         {
-            "type": "tapes-pens",
-            "heading": "Самозалепваща прозрачна лента Muroll",
+            "type": "tapes",
+            "heading": "Самозалепваща лента Muroll",
             "image": "images/tapes/brown-tape-muroll.jpg",
-            "description": "Кафяв | Ширина: 48 мм. | Дължина: 66 м. | 6 броя в опаковка | 36 броя в кашон",
+            "description": "Цвят: Кафяв | Ширина: 48 мм. | Дължина: 66 м. | 6 броя в опаковка | 36 броя в кашон",
             "price": 0.77
         },
          {
-            "type": "tapes-pens",
-            "heading": "Самозалепваща прозрачна лента Muroll",
+            "type": "tapes",
+            "heading": "Самозалепваща лента Muroll",
             "image": "images/tapes/white-tape-muroll.png",
-            "description": "Бял | Ширина: 48 мм. | Дължина: 66 м. | 6 броя в опаковка | 36 броя в кашон",
+            "description": "Цвят: Бял | Ширина: 48 мм. | Дължина: 66 м. | 6 броя в опаковка | 36 броя в кашон",
             "price": 0.77
         },
         {
-            "type": "tapes-pens",
+            "type": "tapes",
             "heading": "Самозалепваща лента Fralex - Италия",
             "image": "images/tapes/through-tape-fralex.jpg",
-            "description": "Прозрачен | Ширина: 25 мм. | Дължина: 33 м. | 6 броя в опаковка | 216 броя в кашон",
+            "description": "Цвят: Прозрачен | Ширина: 25 мм. | Дължина: 33 м. | 6 броя в опаковка | 216 броя в кашон",
             "price": 0.50
         },
         {
-            "type": "tapes-pens",
+            "type": "tapes",
             "heading": "Самозалепваща лента Fralex - Италия",
             "image": "images/tapes/through-tape-fralex.jpg",
-            "description": "Прозрачен | Ширина: 25 мм. | Дължина: 66 м. | 12 броя в опаковка | 72 броя в кашон",
+            "description": "Цвят: Прозрачен | Ширина: 25 мм. | Дължина: 66 м. | 12 броя в опаковка | 72 броя в кашон",
             "price": 0.62
         },
         {
-            "type": "tapes-pens",
+            "type": "tapes",
             "heading": "Хартиена самозалепваща лента Muroll",
             "image": "images/tapes/paper-tape.png",
             "description": "Ширина: 50 мм. | Дължина: 50 м. | 6 броя в опаковка",
             "price": 1.80
         },
         {
-            "type": "tapes-pens",
+            "type": "tapes",
             "heading": "Хартиена самозалепваща лента Muroll",
             "image": "images/tapes/paper-tape.png",
             "description": "Ширина: 38 мм. | Дължина: 50 м. | 6 броя в опаковка",
             "price": 1.30
         },
         {
-            "type": "tapes-pens",
+            "type": "tapes",
             "heading": "Хартиена самозалепваща лента Muroll",
             "image": "images/tapes/paper-tape.png",
             "description": "Ширина: 25 мм. | Дължина: 50 м. | 9 броя в опаковка",
             "price": 0.89
         },
         {
-            "type": "tapes-pens",
+            "type": "tapes",
             "heading": "Хартиена самозалепваща лента Muroll",
             "image": "images/tapes/paper-tape.png",
             "description": "Ширина: 19 мм. | Дължина: 50 м. | 12 броя в опаковка",

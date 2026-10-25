@@ -1,28 +1,28 @@
 {
     "copy": [
         {
-            "type": "copy-paper",
+            "type": "copy",
             "heading": "Копирна хартия Niveus FIT+",
             "image": "images/copy/Niveus-fit.png",
             "description": "А4 | 80гр/м2 | белота 165 +- 3.0 | плътност 98гр/см3 | непрозрачност 94.0 +- 1.0% | яркост 110.0+- 1.5 | 500 листа в пакет | 5 пакета в кашон",
             "price": 3.41
         },
         {
-            "type": "copy-paper",
+            "type": "copy",
             "heading": "Копирна хартия Blue Copying Paper",
             "image": "images/copy/blue-copying-paper.png",
             "description": "Плътност 75гр/м2 | 500 листа в пакет | 5 пакета в кашон",
             "price": 3.22
         },
         {
-            "type": "copy-paper",
+            "type": "copy",
             "heading": "Копирна хартия PREMIER COPIER - A клас",
             "image": "images/copy/premium-copier.png",
             "description": "Плътност 80гр/м2 | белота 170 + 2.0 | дебелина 103 мик. | непрозрачност 92.5% | яркосрт 114.0 + 1.0 | 500 листа в пакет | 5 пакета в кашон",
             "price": 4.30
         },
         {
-            "type": "copy-paper",
+            "type": "copy",
             "heading": "Копирна хатрия Red Copying Paper Mondi",
             "image": "images/copy/red-copying-paper.png",
             "description": "Копирна хатрия Red Copying Paper Mondi",
@@ -30,3 +30,4 @@
         }
     ]
 }
+

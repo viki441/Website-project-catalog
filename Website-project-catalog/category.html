@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>Папер Пойнт каталог</title>
+   <link rel="stylesheet" href="css/components.css">
+   <link rel="stylesheet" href="css/icons.css">
+   <link rel="stylesheet" href="css/responsee.css">
+   <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+   <link rel="stylesheet" href="owl-carousel/owl.theme.css">
+   <link rel="stylesheet" href="css/burger-menu.css">
+   <!-- CUSTOM STYLE -->
+   <link rel="stylesheet" href="css/template-style.css">
+   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=latin,latin-ext'
+      rel='stylesheet' type='text/css'>
+   <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+   <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+</head>
+
+<body class="size-1520">
+   <!-- HEADER -->
+   <header>
+      <!--<div class="line">
+         <div class="box">
+            <div class="m-12 l-2">
+               <img class="full-img logo" src="images/logo.png">
+            </div>
+         
+           <div class="m-12 l-8 right">
+               <div class="margin">
+                  <form class="customform m-12 l-8" method="get" action="http://google.com/">
+                     <div class="s-9"><input type="text" placeholder="Search form" title="Search form" /></div>
+                     <div class="s-3"><button type="submit">Search</button></div>
+                  </form>
+                  <div class="m-12 l-4">
+                     <p class="right cart"><i class="icon-sli-basket"></i> <b>3 items</b> / EUR 199.90</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>-->
+
+
+      <!-- TOP NAV -->
+      <div class="line">
+         <nav>
+            <!-- <div class="nav-text"></div> -->
+            <div class="mobile-menu">
+               <ul class="left">
+                  <li>
+                     <div class="m-12 l-2">
+                        <img class="full-img logo" src="images/logo-white.png" alt="Home"
+                           onclick="window.location.href='index.html'" style="cursor: pointer;">
+                     </div>
+                  </li>
+               </ul>
+               <div id="myNav" class="overlay">
+                  <a class="closebtn" onclick="closeNav()">&times;</a>
+                  <div class="overlay-content">
+                     <li><a href="index.html">Начало</a></li>
+                     <li><a href="contacts.html">Контакти</a></li>
+                  </div>
+               </div>
+               <span onclick="openNav()">&#9776;</span>
+            </div>
+
+            <div class="top-nav">
+               <ul class="left">
+                  <li>
+                     <div class="m-12 l-2">
+                        <img class="full-img logo" src="images/logo-white.png" alt="Home"
+                           onclick="window.location.href='index.html'" style="cursor: pointer;">
+                     </div>
+                  </li>
+               </ul>
+               <ul class="right">
+                  <li><a href="index.html">Начало</a></li>
+                  <li><a href="contacts.html">Контакти</a></li>
+               </ul>
+            </div>
+
+
+         </nav>
+      </div>
+   </header>
+
+
+
+
+   <!-- ASIDE NAV AND CONTENT -->
+   <div class="line">
+      <div class="box margin-bottom">
+         <div class="margin2x">
+            <!--NAVBAR-LEFT-->
+          
+
+
+            <!-- CONTENT -->
+            <section class="s-12 m-8 l-9 xl-12">
+               <!-- CAROUSEL -->
+               <div class="line hide-s">
+                  <div id="header-carousel" class="owl-carousel owl-theme">
+                     <div class="item"><img src="images/bg1n.jpg" alt=""></div>
+                     <div class="item"><img src="images/bg2m.jpg" alt=""></div>
+                     <div class="item"><img src="images/bg3n.jpg" alt=""></div>
+                     <div class="item"><img src="images/bg4n.jpg" alt=""></div>
+                     <div class="item"><img src="images/bg5n.jpg" alt=""></div>
+                  </div>
+               </div>
+
+
+               <h1 class="margin-bottom">Продукти</h1>
+               <div class="margin2x" id="product-container">
+                  <div class="row align-items-center py-5" >
+               
+                  </div>
+
+               </div>
+
+
+
+            </section>
+         </div>
+      </div>
+   </div>
+   <!-- FOOTER -->
+   <footer>
+      <div class="line">
+         <div class="s-12 l-6">
+            <p>Copyright 2019, Vision Design - graphic zoo</p>
+         </div>
+         <div class="s-12 l-6">
+            <a class="right" href="http://www.myresponsee.com"
+               title="Responsee - lightweight responsive framework">Design and coding by Responsee Team</a>
+            <a class="right" href="https://github.com/viki441"
+               title="Responsee - lightweight responsive framework">Modified by viki441</a>
+
+         </div>
+      </div>
+   </footer>
+   <script type="text/javascript" src="js/responsee.js"></script>
+   <script type="text/javascript" src="queries/home.js"></script>
+   <script type="text/javascript" src="js/card-maker.js"></script>
+   <script type="text/javascript" src="owl-carousel/owl.carousel.js"></script>
+   <script type="text/javascript" src="js/burger-menu.js"></script>
+   <script type="text/javascript" src="js/category.js"></script>
+   
+   <!--  <script type="text/javascript" src="js/pagination.js"></script>-->
+   <script type="text/javascript">
+      jQuery(document).ready(function ($) {
+         var owl = $('#header-carousel');
+         owl.owlCarousel({
+            nav: false,
+            dots: true,
+            items: 1,
+            loop: true,
+            navText: ["&#xf007", "&#xf006"],
+            autoplay: true,
+            autoplayTimeout: 3000
+         });
+      })
+   </script>
+</body>
+
+</html>

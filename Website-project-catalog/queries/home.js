@@ -5,9 +5,9 @@ let id = 0;
 
 
 function getQuery() {
-    const query = new URLSearchParams(window.location.search).get("query") || "rolls";
+    const query = new URLSearchParams(window.location.search).get("query") || "categories";
 
-    console.log("query:", query);
+    //console.log("query:", query);
 
     return query;
 }
@@ -20,9 +20,9 @@ async function loadData(query) {
 
     data = await response.json();
 
-    containerMain = document.getElementById('product-container');
+    containerMain = document.getElementById('category-container');
 
-    console.log("container:", containerMain);
+    //console.log("container:", containerMain);
 
     containerMain.innerHTML = '';
     
@@ -36,7 +36,7 @@ async function loadData(query) {
 
     filteredProducts.forEach(product => {
 
-        makeCard(containerMain, product, category, id++);
+        makeCategory(containerMain, product, category, id++);
 
     });
     id = 0;
